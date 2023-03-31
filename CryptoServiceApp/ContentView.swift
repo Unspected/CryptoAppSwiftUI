@@ -14,7 +14,7 @@ struct ContentView: View {
             Color.theme.background
                 .ignoresSafeArea()
             
-            VStack {
+            VStack(spacing: 40) {
                 
                 Text("Secondary Text")
                     .foregroundColor(Color.theme.secondaryText)
