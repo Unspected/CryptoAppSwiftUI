@@ -15,6 +15,7 @@
 		E9774B9D29D78DB60069E8F5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9774B9C29D78DB60069E8F5 /* HomeView.swift */; };
 		E9774BA129D78FE10069E8F5 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9774BA029D78FE10069E8F5 /* CircleButtonView.swift */; };
 		E9774BA429D79B250069E8F5 /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9774BA229D799A20069E8F5 /* CircleButtonAnimationView.swift */; };
+		E9774BA729D7B76D0069E8F5 /* CryptoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9774BA629D7B76D0069E8F5 /* CryptoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		E9774B9C29D78DB60069E8F5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		E9774BA029D78FE10069E8F5 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 		E9774BA229D799A20069E8F5 /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
+		E9774BA629D7B76D0069E8F5 /* CryptoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				E96C4EED29D63F0B00ACF1CD /* CryptoServiceAppApp.swift */,
+				E9774BA529D7B7130069E8F5 /* Models */,
 				E9774B9829D78C160069E8F5 /* Core */,
 				E96C4EEF29D63F0B00ACF1CD /* ContentView.swift */,
 				E96C4EFB29D6402800ACF1CD /* Assets.xcassets */,
@@ -135,6 +138,14 @@
 			name = CircleButton;
 			sourceTree = "<group>";
 		};
+		E9774BA529D7B7130069E8F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E9774BA629D7B76D0069E8F5 /* CryptoModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -207,6 +218,7 @@
 			files = (
 				E96C4EF029D63F0B00ACF1CD /* ContentView.swift in Sources */,
 				E9774B9D29D78DB60069E8F5 /* HomeView.swift in Sources */,
+				E9774BA729D7B76D0069E8F5 /* CryptoModel.swift in Sources */,
 				E96C4EEE29D63F0B00ACF1CD /* CryptoServiceAppApp.swift in Sources */,
 				E9774BA129D78FE10069E8F5 /* CircleButtonView.swift in Sources */,
 				E96C4EFF29D6420100ACF1CD /* Color.swift in Sources */,
