@@ -22,7 +22,6 @@ extension Double {
     //    formater.currencySymbol = "$" // change currency symbol
         formater.minimumFractionDigits = 2
         formater.maximumFractionDigits = 2
-        
         return formater
     }
     
@@ -70,16 +69,20 @@ extension Double {
     /// Convert to 1.2345 to "1.23"
     /// ```
     func asNumberString() -> String {
-        return "\(((self * 100).rounded() / 100))"
+        let formatter = NumberFormatter()
+        formatter.minimumFractionDigits = 0 // Set minimum number of decimals
+        formatter.maximumFractionDigits = 2 // Set maximum number of decimals
+        let formattedNumber = formatter.string(from: NSNumber(value: self))
+        return formattedNumber!
     }
     
     /// Converts double into string with percentage symbol
     /// ```
     /// Convert to 1.2345 to "1.23%"
     /// ```
-    ///
     func asPercentString() -> String {
-        return "\(asNumberString())%"
+        return asNumberString() + "%"
+        
     }
     
     
