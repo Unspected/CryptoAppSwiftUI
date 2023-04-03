@@ -23,7 +23,7 @@ struct HomeView: View {
                 // Header
                 homeHeader
                 
-                // Column
+                // titles
                 columnTitles
                 
                 if !showPortfolio {
