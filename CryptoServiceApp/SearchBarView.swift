@@ -50,6 +50,7 @@ struct SearchBarView_Previews: PreviewProvider {
             SearchBarView(searchText: .constant(""))
                 .previewLayout(.sizeThatFits)
                 .preferredColorScheme(.light)
+            
         }
     }
 }
