@@ -23,6 +23,8 @@ struct HomeView: View {
                 // Header
                 homeHeader
                 
+                // SearchField
+                SearchBarView(searchText: $vm.searchText)
                 // titles
                 columnTitles
                 
