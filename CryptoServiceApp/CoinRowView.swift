@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// MARK: - CoinView Cell
+
 struct CoinRowView: View {
     
     let coin: CoinModel

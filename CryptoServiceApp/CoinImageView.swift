@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+
+// MARK: - Coin Image
 struct CoinImageView: View {
     
     @StateObject var vm: CoinImageViewModel
