@@ -39,6 +39,7 @@
 		E9EB766329E506D200C9BA0F /* PortfolioContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9EB766129E506D200C9BA0F /* PortfolioContainer.xcdatamodeld */; };
 		E9EB766529E50B6A00C9BA0F /* PortfolioDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EB766429E50B6A00C9BA0F /* PortfolioDataService.swift */; };
 		E9EB766729E66CA400C9BA0F /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EB766629E66CA400C9BA0F /* HapticManager.swift */; };
+		E9EB766C29E88C2500C9BA0F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EB766B29E88C2500C9BA0F /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		E9EB766229E506D200C9BA0F /* PortfolioContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PortfolioContainer.xcdatamodel; sourceTree = "<group>"; };
 		E9EB766429E50B6A00C9BA0F /* PortfolioDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDataService.swift; sourceTree = "<group>"; };
 		E9EB766629E66CA400C9BA0F /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		E9EB766B29E88C2500C9BA0F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 			children = (
 				E9774B9E29D78FA50069E8F5 /* Components */,
 				E9774B9929D78C540069E8F5 /* Home */,
+				E9EB766829E88BBD00C9BA0F /* Detail */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -241,6 +244,30 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		E9EB766829E88BBD00C9BA0F /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				E9EB766929E88BDF00C9BA0F /* ViewModels */,
+				E9EB766A29E88BEB00C9BA0F /* Views */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		E9EB766929E88BDF00C9BA0F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		E9EB766A29E88BEB00C9BA0F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E9EB766B29E88C2500C9BA0F /* DetailView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -327,6 +354,7 @@
 				E96C4EEE29D63F0B00ACF1CD /* CryptoServiceAppApp.swift in Sources */,
 				E9774BA129D78FE10069E8F5 /* CircleButtonView.swift in Sources */,
 				E9AF57E029DE75CC00CD5717 /* SearchBarView.swift in Sources */,
+				E9EB766C29E88C2500C9BA0F /* DetailView.swift in Sources */,
 				E9EB766729E66CA400C9BA0F /* HapticManager.swift in Sources */,
 				E981FC8329DB959C00DFB4F7 /* NetworkingManager.swift in Sources */,
 				E9A802AD29E07D4500F1FF0E /* HomeStatsView.swift in Sources */,
