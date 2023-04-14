@@ -117,9 +117,9 @@ class HomeViewModel: ObservableObject {
         // will only sort holding or reversedHoldings if needed
         switch sortOption {
             case .holdings:
-                return coins.sorted(by: { $0.currentHoldingsValue > $1.currentHoldingsValue })
+                return coins.sorted(by: { $0.currentHoldingValues > $1.currentHoldingValues })
             case .holdingsReversed:
-                return coins.sorted(by: { $0.currentHoldingsValue < $1.currentHoldingsValue })
+                return coins.sorted(by: { $0.currentHoldingValues < $1.currentHoldingValues })
             default:
                 return coins
                 
@@ -148,11 +148,11 @@ class HomeViewModel: ObservableObject {
         let btcDominance = StatisticModel(title: "BTC Dominance", value: data.btcDominance)
         
         
-        let portfolioValue = portfolioCoins.map({ $0.currentHoldingsValue }).reduce(0, +)
+        let portfolioValue = portfolioCoins.map({ $0.currentHoldingValues }).reduce(0, +)
         
         let previousValue =
         portfolioCoins.map({ (coin) -> Double in
-            let currentValue = coin.currentHoldingsValue
+            let currentValue = coin.currentHoldingValues
             let percentChange = coin.priceChangePercentage24H ?? 0 / 100
             let previousValue = currentValue / ( 1 + percentChange)
             return previousValue

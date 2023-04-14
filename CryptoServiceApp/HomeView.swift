@@ -50,7 +50,6 @@ struct HomeView: View {
                 Spacer(minLength: 0)
             }
         }.background(
-            
             NavigationLink(destination: DetailLoadingView(coin: $selectedCoin),
                            isActive: $showDetailView,
                            label: { EmptyView() })
