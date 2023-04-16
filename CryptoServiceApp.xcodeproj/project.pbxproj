@@ -45,6 +45,7 @@
 		E9EB767229E8FD4800C9BA0F /* CoinDetailDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EB767129E8FD4800C9BA0F /* CoinDetailDataService.swift */; };
 		E9EB767429EA730D00C9BA0F /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EB767329EA730D00C9BA0F /* ChartView.swift */; };
 		E9EB767629EB708500C9BA0F /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EB767529EB708500C9BA0F /* Date.swift */; };
+		E9EB767829EBB7D800C9BA0F /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EB767729EBB7D800C9BA0F /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +89,7 @@
 		E9EB767129E8FD4800C9BA0F /* CoinDetailDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailDataService.swift; sourceTree = "<group>"; };
 		E9EB767329EA730D00C9BA0F /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		E9EB767529EB708500C9BA0F /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		E9EB767729EBB7D800C9BA0F /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 				E9467FDF29D9457C00EB8F4F /* Double.swift */,
 				E98D72DE29DE8CD400626D0C /* UIApplication.swift */,
 				E9EB767529EB708500C9BA0F /* Date.swift */,
+				E9EB767729EBB7D800C9BA0F /* String.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 				E9D1C15129E3AFB500650A5A /* MarketDataService.swift in Sources */,
 				E96C4EFF29D6420100ACF1CD /* Color.swift in Sources */,
 				E981FC8A29DCE9CE00DFB4F7 /* CoinImageViewModel.swift in Sources */,
+				E9EB767829EBB7D800C9BA0F /* String.swift in Sources */,
 				E9467FDE29D93E2400EB8F4F /* PreviewProvider.swift in Sources */,
 				E9D1C15329E3BF5900650A5A /* PortfolioView.swift in Sources */,
 				E9467FE029D9457C00EB8F4F /* Double.swift in Sources */,
