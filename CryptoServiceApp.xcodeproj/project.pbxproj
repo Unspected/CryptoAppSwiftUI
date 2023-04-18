@@ -122,15 +122,16 @@
 		E96C4EEC29D63F0B00ACF1CD /* CryptoServiceApp */ = {
 			isa = PBXGroup;
 			children = (
+				E9CA116529EEEB51009E8C9A /* Core1 */,
 				E98D72DD29DE8B0A00626D0C /* Info.plist */,
 				E96C4EED29D63F0B00ACF1CD /* CryptoServiceAppApp.swift */,
 				E981FC8129DB952D00DFB4F7 /* Utilities */,
 				E9A729EA29DB2FF50057614A /* Services */,
 				E9774BA529D7B7130069E8F5 /* Models */,
 				E96C4EFD29D6413B00ACF1CD /* Extensions */,
-				E9774B9829D78C160069E8F5 /* CoreDirectory */,
-				E94A64A129E4BB7D00CB82EF /* Assets.xcassets */,
+				E9774B9829D78C160069E8F5 /* Core */,
 				E96C4EF329D63F0C00ACF1CD /* Preview Content */,
+				E94A64A129E4BB7D00CB82EF /* Assets.xcassets */,
 			);
 			path = CryptoServiceApp;
 			sourceTree = "<group>";
@@ -156,7 +157,7 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		E9774B9829D78C160069E8F5 /* CoreDirectory */ = {
+		E9774B9829D78C160069E8F5 /* Core */ = {
 			isa = PBXGroup;
 			children = (
 				E9774B9E29D78FA50069E8F5 /* Components */,
@@ -164,7 +165,7 @@
 				E9EB766829E88BBD00C9BA0F /* Detail */,
 				E9EB767929EBCBFF00C9BA0F /* Settings */,
 			);
-			name = CoreDirectory;
+			name = Core;
 			sourceTree = "<group>";
 		};
 		E9774B9929D78C540069E8F5 /* Home */ = {
@@ -260,6 +261,30 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		E9CA116529EEEB51009E8C9A /* Core1 */ = {
+			isa = PBXGroup;
+			children = (
+				E9CA116629EEEBBE009E8C9A /* Settings */,
+			);
+			path = Core1;
+			sourceTree = "<group>";
+		};
+		E9CA116629EEEBBE009E8C9A /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				E9CA116729EEEBC8009E8C9A /* Views */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		E9CA116729EEEBC8009E8C9A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E9EB767B29EBCC4300C9BA0F /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		E9EB766829E88BBD00C9BA0F /* Detail */ = {
 			isa = PBXGroup;
 			children = (
@@ -297,7 +322,6 @@
 		E9EB767A29EBCC2300C9BA0F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				E9EB767B29EBCC4300C9BA0F /* SettingsView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
