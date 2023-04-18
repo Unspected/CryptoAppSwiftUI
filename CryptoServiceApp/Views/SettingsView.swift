@@ -2,7 +2,7 @@
 //  SettingsView.swift
 //  CryptoServiceApp
 //
-//  Created by Pavel Andreev on 4/15/23.
+//  Created by Pavel Andreev on 4/18/23.
 //
 
 import SwiftUI
