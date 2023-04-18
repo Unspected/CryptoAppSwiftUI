@@ -128,7 +128,7 @@
 				E9A729EA29DB2FF50057614A /* Services */,
 				E9774BA529D7B7130069E8F5 /* Models */,
 				E96C4EFD29D6413B00ACF1CD /* Extensions */,
-				E9774B9829D78C160069E8F5 /* Core */,
+				E9774B9829D78C160069E8F5 /* CoreDirectory */,
 				E94A64A129E4BB7D00CB82EF /* Assets.xcassets */,
 				E96C4EF329D63F0C00ACF1CD /* Preview Content */,
 			);
@@ -156,7 +156,7 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		E9774B9829D78C160069E8F5 /* Core */ = {
+		E9774B9829D78C160069E8F5 /* CoreDirectory */ = {
 			isa = PBXGroup;
 			children = (
 				E9774B9E29D78FA50069E8F5 /* Components */,
@@ -164,7 +164,7 @@
 				E9EB766829E88BBD00C9BA0F /* Detail */,
 				E9EB767929EBCBFF00C9BA0F /* Settings */,
 			);
-			name = Core;
+			name = CoreDirectory;
 			sourceTree = "<group>";
 		};
 		E9774B9929D78C540069E8F5 /* Home */ = {
